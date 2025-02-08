@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up / Login</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h2>Sign Up / Login</h2>
+
+            <div class="toggle-box">
+                <button id="loginBtn" onclick="showLogin()">Login</button>
+                <button id="signupBtn" onclick="showSignUp()">Sign Up</button>
+            </div>
+
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn"><a href="project.html">Login</a></button>
+            </form>
+
+            <form id="signup" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn"><a href="project.html">Sign Up</a></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
